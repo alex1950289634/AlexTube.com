@@ -1,0 +1,128 @@
+.header {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  padding-bottom: 10px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(233, 233, 233);
+  z-index: 100;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  width: 280px;
+}
+.burger {
+  margin: 0px 15px 8px 15px;
+  width: 24px;
+  cursor: pointer;
+}
+.newlogo {
+  display: inline-block;
+  margin-left: 4px;
+  width: 50px;
+}
+.AlexTube {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 12px;
+  margin-left: 0px;
+  padding-right: 20px;
+  width: 110px;
+  display: block;
+}
+
+.mid {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.search-bar {
+  font-size: 17px;
+  padding-left: 20px;
+  height: 40px;
+  width: 358px;
+}
+.search-button {
+  height: 44px;
+  width: 63px;
+  cursor: pointer;
+  position: relative;
+}
+.search-button .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 3px;
+  font-size: 12px;
+  bottom: -28px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.search-button:hover .tooltip {
+  opacity: 1;
+}
+.search {
+  width: 24px;
+}
+.mic-button {
+  border: none;
+  background-color: rgb(241, 241, 241);
+  margin-left: 10px;
+  border-radius: 80px;
+  height: 44px;
+  width: 40px;
+  cursor: pointer;
+}
+.mic {
+  width: 25px;
+}
+
+.right {
+  flex: 1;
+  margin-left: 50px;
+  display: flex;
+  text-align: center;
+  width: 50px;
+}
+.plus,
+.apps {
+  width: 30px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+.notification {
+  width: 30px;
+  margin-left: 22px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.notification-icon {
+  position: relative;
+}
+.icon {
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(204,0,0);
+  padding: 2px 5px 2px 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.profile-picture {
+  margin-left: 28px;
+  border-radius: 20px;
+  cursor: pointer;
+}

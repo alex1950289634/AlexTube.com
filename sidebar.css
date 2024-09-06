@@ -1,0 +1,75 @@
+.sidebar {
+    position: fixed;
+    top: 80px;
+    bottom: 0px;
+    right: 925px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.home {
+  padding-left: 38px;
+  padding-top: 30px;
+  width: 20px;
+  display: block;
+}
+.luxor {
+  padding-left: 28px;
+  padding-top: 38px;
+  width: 40px;
+  display: block;
+}
+.strip {
+  padding-left: 30px;
+  padding-top: 40px;
+  width: 35px;
+  display: block;
+}
+.pornhub {
+  padding-left: 29px;
+  padding-top: 48px;
+  width: 36px;
+  height: 25px;
+  display: block;
+}
+.paper {
+  padding-left: 29px;
+  padding-top: 43px;
+  width: 36px;
+  display: block;
+}
+
+.name1,
+.name2,
+.name3,
+.name4,
+.name5 {
+  font-size: 11px;
+}
+.name1 {
+  position: fixed;
+  margin-left: 34px;
+  margin-top: 6px;
+}
+.name2 {
+  position: fixed;
+  margin-left: 33px;
+}
+.name3 {
+  position: fixed;
+  margin-left: 22px;
+  margin-top: 7px;
+}
+.name4 {
+  position: fixed;
+  margin-left: 37px;
+  margin-top: 6px;
+}
+.name5 {
+  position: fixed;
+  margin-left: 24px;
+  margin-top: 6px;
+}
